@@ -30,7 +30,7 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 #define wipeB 3 // Button pin for WipeMode
 
 #define Password_Lenght 5 // Give enough room for six chars + NULL char
-String number ="9968681026";
+String number =""; // Add phone number here
 int randNumber;
 int sgn = 12;
 
